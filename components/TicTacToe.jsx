@@ -1,8 +1,7 @@
 'use client'
-
 import calculateWinner from '@/utils/calculateWinner';
 import React, { useState, useEffect } from 'react';
-import Square from './Square';
+import Square from './square';
 
 const TicTacToe = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
